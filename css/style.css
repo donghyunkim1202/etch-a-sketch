@@ -1,0 +1,82 @@
+html {
+    position: relative;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #e1eafa;
+    
+
+    text-align: center;
+    /* justify-content: center; */
+
+}
+
+.header {
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+}
+
+/* pen & background color */
+
+.colorIndicator {
+    
+    display: flex;
+    justify-content: flex-start;
+        
+    margin-right: 40em;
+    margin-top: 1em;
+}
+
+.penColor {
+    border: solid 1px black;
+    width: 50px; height: 50px;
+    margin-top: 1em; margin-right: 5em;
+}
+
+.bgColor {
+    border: solid 1px black;
+    width: 50px; height: 50px;
+    margin-left: 2em; margin-right: 3em;
+}
+
+
+/* buttons */
+.buttons {
+    display: flex;
+
+    justify-content: center;
+    flex-direction:column;
+    gap: 1em;
+
+    border: black solid 1px;
+
+    margin-right: 20em;   
+}
+
+/* slider - gride selector */
+
+.rangeSlider {
+    width: 50%;
+}
+
+.mySlider {
+    width: 30%;
+    height: 20px;
+    opacity: 2;
+}
+
+.mySlider::-webkit-slider-thumb {
+    cursor: pointer;
+    width: 5%;
+    height: 20px;
+}
+
+.mySlider:hover {
+    opacity: 1;
+}
